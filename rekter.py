@@ -58,7 +58,7 @@ class App:
         
        
         
-        Tkinter.Label(self.root, text = "Enter you informations :", font=("Helvetica Neue Bold", 14), bg = bgColor).grid(row = 2, column = 2, columnspan = 4, padx = 10, sticky = 'w')
+        Tkinter.Label(self.root, text = "Enter your informations :", font=("Helvetica Neue Bold", 14), bg = bgColor).grid(row = 2, column = 2, columnspan = 4, padx = 10, sticky = 'w')
         Tkinter.Label(self.root, text = "Full Name:", font=("Helvetica Neue", 14), bg = bgColor).grid(row = 3, column = 2, padx = 10, sticky = 'w')
 
 
@@ -73,8 +73,8 @@ class App:
         
     
 
-        Tkinter.Button(self.root, text = "Quitter", highlightbackground = bgColor, command = self.Exit).grid(row = 8, column = 3, pady = (5, 5), sticky = 'e')
-        Tkinter.Button(self.root, text = "Valider", highlightbackground = bgColor, command = self.Submit).grid(row = 8, column = 4, pady = (5, 5), sticky = 'e')
+        Tkinter.Button(self.root, text = "Quit", highlightbackground = bgColor, command = self.Exit).grid(row = 8, column = 3, pady = (5, 5), sticky = 'e')
+        Tkinter.Button(self.root, text = "Validate", highlightbackground = bgColor, command = self.Submit).grid(row = 8, column = 4, pady = (5, 5), sticky = 'e')
         
 
         self.root.withdraw()
